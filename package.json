@@ -45,8 +45,8 @@
     "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@nomicfoundation/ignition-core": "^0.15.5",
-    "@openzeppelin/contracts": "^4.9.5",
-    "@openzeppelin/contracts-upgradeable": "^4.9.5",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
     "@typechain/ethers-v6": "^0.5.1",
     "@typechain/hardhat": "^9.1.0",
     "@types/chai": "^4.3.17",
@@ -61,6 +61,8 @@
     "zksync-ethers": "^6.11.1"
   },
   "dependencies": {
+    "@layerzerolabs/lz-evm-oapp-v2": "^3.0.23",
+    "@layerzerolabs/lz-evm-protocol-v2": "^3.0.23",
     "@matterlabs/hardhat-zksync-deploy": "^1.6.0",
     "@matterlabs/hardhat-zksync-solc": "^1.2.5"
   }
